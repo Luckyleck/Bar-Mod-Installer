@@ -1,0 +1,25 @@
+{
+  "name": "EZ-Widgets",
+  "version": "0.1.0",
+  "description": "An application that fetches raw .lua beyond all reason widgets from github and installs them automatically",
+  "main": "widget_fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "luckyleck",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "bin": {
+    "ezwidgets": "./widget_fetcher.js"
+  },
+  "pkg": {
+    "scripts": "widget_fetcher.js",
+    "targets": [
+      "node14-win-x64"
+    ]
+  }
+}
