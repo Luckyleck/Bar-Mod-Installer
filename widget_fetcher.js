@@ -6,7 +6,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const os = require('os');
 
-// Define the GitHub script URLs
+// Define the raw GitHub script URLs
 const SCRIPT_URLS = [
     'https://raw.githubusercontent.com/Eeems/bar-widgets/main/gui_build_eta.lua',
     'https://raw.githubusercontent.com/zxbc/BAR_widgets/main/cmd_better_build_pathing.lua',
